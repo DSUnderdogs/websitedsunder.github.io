@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1140px){
+    @font-face {
+        font-family: Hacked;
+        src: url(https://hackedfont.com/HACKED.ttf);
+    }
+
+    div.team_name {
+        font-size: 8rem;
+        color: greenyellow;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: aquamarine;
+        display: block;
+        padding-left: 400px;
+    }
+
+    table.navigation td {
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+        color: white;
+        padding: 1em;
+        font-size: 3.5rem;
+        padding-left: 250px;
+    }
+
+    .about{
+        padding-left: 300px;
+    }
+
+    .inform{
+        padding-left: 450px;
+    }
+}
